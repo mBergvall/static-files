@@ -1,0 +1,149 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cube",
+            "scale" : [
+                10.561614036560059,
+                15.709090232849121,
+                12.474388122558594
+            ],
+            "translation" : [
+                15.021109580993652,
+                50.99348449707031,
+                -20.29001235961914
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Cube.001",
+            "scale" : [
+                10.561614036560059,
+                15.709090232849121,
+                12.474388122558594
+            ],
+            "translation" : [
+                45.47187423706055,
+                56.75321960449219,
+                -58.42995834350586
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0
+                            }
+                        }
+                    },
+                    "indices" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Cube.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0
+                            }
+                        }
+                    },
+                    "indices" : 1,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 8,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 8,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 80,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 80,
+            "byteOffset" : 80
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 160,
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAACAwACwAAA2+1FAEBEAH/AAABAAkDAAACAQEBAAMDARgBKAMAwLIxIpUCQAAAAAAAAABAAACAvwAAgL8AAIC/AAAAQB5EUkFDTwICAQEAAAAIDAALAAADb7UUAQEQAf8AAAEACQMAAAIBAQEAAwMBGAEoAwDAsjEilQJAAAAAAAAAAEAAAIC/AACAvwAAgL8AAABAHg=="
+        }
+    ]
+}
